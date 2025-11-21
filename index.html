@@ -14,10 +14,86 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body>  
+
+<!--HEADER-->
+    <header class="navbar">
+        <img src="images/logo/Booki.png" alt="logo" id="logo">
+        <ul class="menu">
+            <li><a href="#">Hébergements</a></li>
+            <li><a href="#">Activités</a></li>
+        </ul>
+    </header>
+
+<!--MAIN-->
     <div class="main-container">
-        <header></header>
-        <main>
+    
+    <!--SECTION 1: Intro: Trouvez votre hébergement-->
+
+        <section class="intro">
+        <div class="title">
+        <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+        <p>En plein centre-ville ou en pleine nature</p>
+        </div>
+
+    <!--Search bar-->
+    
+      <div class="search-bar">
+            <div class="search-bar-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <form class="search-bar-form">
+              <input type="text" placeholder="Marseille, France" />
+            </form>
+
+            <button class="search-bar-btn">
+              <span class="hidden-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+              <span class="hidden-text">Rechercher</span>
+            </button>
+          </div>
+
+<!--Filters-->   
+    
+<div class="filters">
+  <span class="filters-title">Filtres</span>
+
+  <button class="filter">
+    <i class="fa-solid fa-money-bill-wave"></i>
+    <span>Économique</span>
+  </button>
+
+  <button class="filter">
+    <i class="fa-solid fa-person"></i>
+    <span>Familial</span>
+  </button>
+
+  <button class="filter">
+    <i class="fa-solid fa-heart"></i>
+    <span>Romantique</span>
+  </button>
+
+  <button class="filter">
+    <i class="fa-solid fa-fire"></i>
+    <span>Nos pépites</span>
+  </button>
+</div>
+
+<!--information-->
+
+<div class="info">
+    <div class="info-icon">
+        <i class="fa-solid fa-info"></i>
+    </div>
+    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
+
+    </section>
+
+    <!--SECTION 2: HEBERGEMENTS & POPULAIRES-->
+
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
