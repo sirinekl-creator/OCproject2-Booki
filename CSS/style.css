@@ -107,6 +107,8 @@ header {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -302,7 +304,11 @@ a {
 
 .hebergements-cards .card-subtitle {
     margin: 0;
-}}
+}
+
+.afficherplushebergements {
+    font-weight: bold;
+}
 
 /****** Populaires ***********/
 .populaires {
@@ -350,7 +356,42 @@ a {
 }
 
 
+/****** SECTION 3: ACTIVITES ***********/
+.activites {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+}
 
+.activites-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 33px;
+}
+
+.activites-card {
+display: flex;
+flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites-card img {
+  width: 297.5px;
+  height: 380px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.activites-card .card-title {
+  margin-top: 20px;
+  margin-right: 19px;
+  margin-bottom: 20px;
+  margin-left: 19px;
+  gap: 10px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
