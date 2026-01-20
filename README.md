@@ -29,3 +29,6 @@ Skills acquired at the end of the project:
 - Integrating content in accordance with a mock-up using HTML and CSS
 - Versioning a project with Git and Github
 - Installing a front-end development environment
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+READ ME ORIGINAL:
+# booki-starter-pack
